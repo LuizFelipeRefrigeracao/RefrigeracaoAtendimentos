@@ -1,0 +1,31 @@
+name: Instalação de Câmera Fria
+description: Use este formulário para adicionar algo ao nosso Project.
+title: "[INSTALAÇÃO DE CÂMERA FRIA]: "
+body:
+  - type: input
+    id: endereco
+    attributes:
+      label: "Endereço do Cliente:"
+    validations:
+      required: true
+
+  - type: input
+    id: telefone
+    attributes:
+      label: "Número de Telefone do Cliente:"
+    validations:
+      required: true
+
+  - type: input
+    id: email
+    attributes:
+      label: "Endereço de E-mail do Cliente:"
+    validations:
+      required: true
+
+  - type: input
+    id: valor
+    attributes:
+      label: "Valor Cobrado do Cliente:"
+    validations:
+      required: true
