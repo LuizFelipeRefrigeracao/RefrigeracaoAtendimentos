@@ -7,10 +7,10 @@ body:
     attributes:
       label: Que tipo de manutenção será feita?
       options:
-        - Ar Condicionado
-        - Geladeira
-        - Freezer
-        - Máquina de Lavar
+        - label: Ar Condicionado
+        - label: Geladeira
+        - label: Freezer
+        - label: Máquina de Lavar
     validations:
       required: true
 
