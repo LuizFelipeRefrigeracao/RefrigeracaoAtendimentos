@@ -1,6 +1,6 @@
 name: Instalação de Ar Condicionado
 description: Use este formulário para adicionar algo ao nosso Project.
-title: "[INSTALAÇÃO DE AR CONDICIONADO]: "
+title: "[INSTALAÇÃO DE AR CONDICIONADO]"
 body:
   - type: dropdown
     id: tipos_instalacao
