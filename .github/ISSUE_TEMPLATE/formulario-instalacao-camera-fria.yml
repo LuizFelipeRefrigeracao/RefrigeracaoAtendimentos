@@ -1,6 +1,6 @@
 name: Instalação de Câmera Fria
 description: Use este formulário para adicionar algo ao nosso Project.
-title: "[INSTALAÇÃO DE CÂMERA FRIA]: "
+title: "[INSTALAÇÃO DE CÂMERA FRIA]"
 body:
   - type: input
     id: endereco
