@@ -1,6 +1,6 @@
 name: Manutenção
 description: Use este formulário para adicionar algo ao nosso Project.
-title: "[MANUTENÇÃO]: "
+title: "[MANUTENÇÃO]"
 body:
   - type: checkboxes
     id: tipos_manutencao
