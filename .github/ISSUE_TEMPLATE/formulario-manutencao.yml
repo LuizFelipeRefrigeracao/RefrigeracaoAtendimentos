@@ -1,0 +1,43 @@
+name: Manutenção
+description: Use este formulário para adicionar algo ao nosso Project.
+title: "[MANUTENÇÃO]: "
+body:
+  - type: checkboxes
+    id: tipos_manutencao
+    attributes:
+      label: Que tipo de manutenção será feita?
+      options:
+        - Ar Condicionado
+        - Geladeira
+        - Freezer
+        - Máquina de Lavar
+    validations:
+      required: true
+
+  - type: input
+    id: endereco
+    attributes:
+      label: "Endereço do Cliente:"
+    validations:
+      required: true
+
+  - type: input
+    id: telefone
+    attributes:
+      label: "Número de Telefone do Cliente:"
+    validations:
+      required: true
+
+  - type: input
+    id: email
+    attributes:
+      label: "Endereço de E-mail do Cliente:"
+    validations:
+      required: true
+
+  - type: input
+    id: valor
+    attributes:
+      label: "Valor Cobrado do Cliente:"
+    validations:
+      required: true
