@@ -1,0 +1,16 @@
+name: Nova Tarefa do Projeto
+description: Use este formulário para adicionar algo ao nosso Project.
+title: "[INSTALAÇÃO]: "
+body:
+  - type: input
+    id: task_name
+    attributes:
+      label: Nome da Tarefa
+      placeholder: O que precisa ser feito?
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Detalhes da Demanda
+      description: Explique o que deve ser entregue.
