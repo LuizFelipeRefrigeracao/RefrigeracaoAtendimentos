@@ -1,16 +1,17 @@
 name: Instalação de Ar Condicionado
 description: Use este formulário para adicionar algo ao nosso Project.
-title: "[INSTALAÇÃO]: "
+title: "[INSTALAÇÃO DE AR CONDICIONADO]: "
 body:
-  - type: checkboxes
+  - type: dropdown
     id: tipos_instalacao
     attributes:
       label: Que tipo de instalação será feita?
-      options:
-        - label: Split
-          required: true
-        - label: Piso Teto
-        - label: Cassete
+    options:
+      - Split
+      - Piso Teto
+      - Cassete
+    validations:
+      required: true
 
   - type: input
     id: endereco
