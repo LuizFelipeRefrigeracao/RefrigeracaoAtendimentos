@@ -1,0 +1,42 @@
+name: Limpeza
+description: Use este formulário para adicionar algo ao nosso Project.
+title: "[LIMPEZA]"
+body:
+  - type: dropdown
+    id: tipos_limpeza
+    attributes:
+      label: Que tipo de instalação será feita?
+      options:
+        - Higienização Ar Condicionado Split
+        - Higienização Ar condicionado Piso Teto
+        - Higienização ACJ
+    validations:
+      required: true
+
+  - type: input
+    id: endereco
+    attributes:
+      label: "Endereço do Cliente:"
+    validations:
+      required: true
+
+  - type: input
+    id: telefone
+    attributes:
+      label: "Número de Telefone do Cliente:"
+    validations:
+      required: true
+
+  - type: input
+    id: email
+    attributes:
+      label: "Endereço de E-mail do Cliente:"
+    validations:
+      required: true
+
+  - type: input
+    id: valor
+    attributes:
+      label: "Valor Cobrado do Cliente:"
+    validations:
+      required: true
