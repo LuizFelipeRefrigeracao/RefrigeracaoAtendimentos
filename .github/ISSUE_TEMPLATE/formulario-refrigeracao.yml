@@ -6,10 +6,10 @@ body:
     id: tipos_instalacao
     attributes:
       label: Que tipo de instalação será feita?
-    options:
-      - Split
-      - Piso Teto
-      - Cassete
+      options:
+        - Split
+        - Piso Teto
+        - Cassete
     validations:
       required: true
 
