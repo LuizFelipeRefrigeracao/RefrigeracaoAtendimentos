@@ -1,39 +1,44 @@
 name: Instalação de Ar Condicionado
 description: Use este formulário para adicionar algo ao nosso Project.
-title: "[INSTALAÇÃO]"
+title: "[INSTALAÇÃO]: "
 body:
   - type: checkboxes
-  id: tipos_instalacao
-  label: Que tipo de instalação será feita?
-  options:
-    - label: Split
-    required: true
-    - label: Piso Teto
-    - label: Cassete
+    id: tipos_instalacao
+    attributes:
+      label: Que tipo de instalação será feita?
+    options:
+      - label: Split
+        required: true
+      - label: Piso Teto
+      - label: Cassete
+
   - type: input
-  id: endereco
-  attributes:
-    label: Endereço do Cliente:
-  validations:
-    required: true
+    id: endereco
+    attributes:
+      label: "Endereço do Cliente:"
+    validations:
+      required: true
+
   - type: input
-  id: telefone
-  attributes:
-    label: Número de Telefone do Cliente:
-  validations:
-    required: true
+    id: telefone
+    attributes:
+      label: "Número de Telefone do Cliente:"
+    validations:
+      required: true
+
   - type: input
-  id: email
-  attributes:
-    label: Endereço de E-mail do Cliente:
-  validations:
-    required: true
+    id: email
+    attributes:
+      label: "Endereço de E-mail do Cliente:"
+    validations:
+      required: true
+
   - type: input
-  id: valor
-  attributes:
-    label: Valor Cobrado do Cliente:
-  validations:
-    required: true
+    id: valor
+    attributes:
+      label: "Valor Cobrado do Cliente:"
+    validations:
+      required: true
   # - type: 
   #   id: task_name
   #   attributes:
